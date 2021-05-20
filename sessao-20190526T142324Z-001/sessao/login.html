@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-sm-10 tela_cadastro">
+            <div class="jumbotron">
+                <div class="form-group div_cadastro">
+                    <h1>Login</h1>
+                </div>
+                <hr>
+                <form action="verificalogin.php" method="post" class="form-horizontal" style="margin-left: 20px;">
+                    <div class="form-group input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </span>
+                       
+                        <input type="email" class="form-control" name="txtlogin" id="txtlogin" placeholder="E-mail" required> 
+                    </div>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-lock"></span>
+                        </span>
+                        
+                        <input type="password" class="form-control" name="txtsenha" id="txtsenha" placeholder="Senha" required>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="checkbox">
+                            Lembre-me
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" style="width:484px;">login</button>
+                    </div>
+                    <div class="form-group" style="margin-left: 160px">
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+                    <hr>
+                    <div class="form-group" style="margin-left: 180px" >
+                        <a href="cadastro.php">Cadastre-se</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
