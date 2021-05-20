@@ -1,0 +1,513 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background-image: url("../imgs/fundo.jpg");
+  background-size: cover;
+
+}
+
+input{
+  padding-left: 7px;
+}
+
+#Consultas{
+border-width: 2px;
+border-style: solid;
+border-color: #6b6666;
+}
+
+#Tabela_cabecalho{
+border-width: 2px;
+border-style: solid;
+border-color: #6b6666;
+}
+
+#Tabela_cabecalho td{
+border-width: 2px;
+border-right-style: solid;
+border-color: #6b6666;
+}
+
+#header_login{
+  background-color: #cecece;
+  border-style: solid;
+  border-width: 5px;
+  width: 100%;
+}
+
+#header_login h1{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+#header_login img{
+  width: 150px;
+  height: 106px;
+  float: left;
+  z-index: 999;
+  
+
+}
+
+#header_padrao{
+  background-color: #cecece;
+  border-style: solid;
+  border-width: 5px;
+  width: 99.3%;
+}
+
+#header_padrao h1{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+#header_padrao img{
+  width: 150px;
+  height: 106px;
+  float: left;
+  margin: -8px;
+}
+
+#header_menu{
+  background-color: #cecece;
+  border-style: solid;
+  border-width: 5px;
+  width: 99,3%;
+  height: 93px;
+}
+
+#header_menu h1{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  border-right-width: 4px;
+  border-right-style: solid;
+  margin: 0px;
+  height: 65px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+#header_menu .img_logo{
+  width: 150px;
+  height: 106px;
+  margin: -8px;
+}
+
+#header_menu .deslogar{
+  width: 80px;
+  height: 60px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+#header_menu .sair{
+  color: red;
+  font-family: Rockwell;
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+#header_menu a{
+  text-decoration: none;
+}
+
+#header_menu .col1{
+  width: 13%;
+  float: left;
+}
+
+#header_menu .col2{
+  width: 75%;
+  float: left;
+}
+
+#header_menu .col3{
+  width: 12%;
+  float: left;
+}
+
+.login{
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.login label{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  margin-left: -100px;
+}
+
+.login .input_login{
+  margin-left: -100px;
+  height: 30px;
+  border-color: black;
+  border-width: 1px;
+}
+
+.btn:focus, .btn::-moz-focus-inner{
+  outline:none;
+  border:none;
+}
+.btn{
+  margin-right: 136px;
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  width: 120px;
+  margin-left: -100px;
+  margin-top: 15px;
+  border:none;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+
+.btn2{
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  width: 120px;
+  margin-top: 15px;
+  border:none;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+
+.btn-green{
+  Background-image: linear-gradient(#00ff80, #00b359);
+  color:#00000;
+  box-shadow:0 2px 0 #006000;
+}
+.btn-green:hover{
+  Background-image: linear-gradient(#00b359, #00cc66);
+  box-shadow:0 2px 0 #003f00;
+}
+
+.btn-red{
+  Background-image: linear-gradient(#ff3333, #ff1a1a);
+  color:#00000;
+  box-shadow:0 2px 0 #b30000;
+}
+.btn-red:hover{
+  Background-image: linear-gradient(#ff1a1a, #e60000);
+  box-shadow:0 2px 0 #800000;
+}
+.btn-green:active, .btn-red:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+.conteudo{
+  width: 100%;
+  height: auto;
+}
+
+.conteudo .col1{
+  width: 50%;
+  float: left;
+  height: 490px;
+}
+
+.conteudo .col2{
+  width: 48%;
+  float: left;
+  border-left-style: solid;
+  border-width: 10px;
+  height: 490px;
+}
+
+.conteudo a{
+  text-decoration: none;
+  font-family: Rockwell;
+  font-size: 22px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  margin-left: 40%;
+}
+
+.conteudo img{
+  margin-left: 4.6%;
+  margin-top: 7%;
+  margin-bottom: 6px;
+}
+
+.conteudo font{
+  margin-left: 40%;
+}
+
+#header_colaborador{
+  background-color: #cecece;
+  border-style: solid;
+  border-width: 5px;
+  width: 99,3%;
+  height: 93px;
+}
+
+#header_colaborador h1{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  border-right-width: 4px;
+  border-right-style: solid;
+  margin: 0px;
+  height: 65px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+#header_colaborador .img_logo{
+  width: 150px;
+  height: 106px;
+  margin: -8px;
+}
+
+#header_colaborador .voltamenu{
+  width: 80px;
+  height: 60px;
+  margin-top: 1.5%;
+  margin-left: 3%;
+}
+
+#header_colaborador .novo_lanche{
+  width: 80px;
+  height: 60px;
+  margin-top: 1.5%;
+  margin-left: 3%;
+}
+
+#header_colaborador .realiza_pedido{
+  width: 80px;
+  height: 60px;
+  margin-top: 1.5%;
+  margin-left: 3%;
+}
+
+#header_colaborador .menuprincipal{
+  color: red;
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+#header_colaborador .realizapedido{
+  color: #006600;
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+#header_colaborador .novolanche{
+  color: #b35900;
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+#header_colaborador a{
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#header_colaborador .col1{
+  width: 13%;
+  float: left;
+}
+
+#header_colaborador .col2{
+  width: 28%;
+  float: left;
+  margin-left: 3%;
+}
+
+#header_colaborador .col3{
+  width: 28%;
+  float: left;
+}
+
+#header_colaborador .col4{
+  width: 28%;
+  float: left;
+}
+
+.conteudo .imagem_confirma{
+  margin-left: 0px;
+}
+
+.conteudo .texto_confirma{
+  color: #006600;
+  font-family: Rockwell;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  margin-left: -2px;
+}
+
+#header_menu .menuprincipaladm{
+  color: red;
+  font-family: Rockwell;
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+#header_menu .voltamenupedidos{
+  color: red;
+  font-family: Rockwell;
+  font-size: 19px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+.cadastro_cliente{
+  position: absolute;
+  top: 42.5%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.cadastro_cliente label{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  margin-left: -100px;
+}
+
+.cadastro_cliente .input_cadastro_cliente{
+  margin-left: -100px;
+  height: 30px;
+  border-color: black;
+  border-width: 1px;
+}
+
+.cadastro_funci{
+  position: absolute;
+  top: 42.5%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.cadastro_funci label{
+  color: #000000;
+  font-family: Rockwell;
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  margin-left: -100px;
+}
+
+.cadastro_funci .input_cadastro_funci{
+  margin-left: -100px;
+  height: 30px;
+  border-color: black;
+  border-width: 1px;
+}
+
+.cadastro_funci .input_cadastro_funci_tipo{
+  margin-left: 61px;
+  height: 30px;
+  border-color: black;
+  border-width: 1px;
+  margin-top: 4%;
+}
+
+
+#Consultas  {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
+  height: 90%;
+
+}
+
+
+#Consultas th, td{
+  padding: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+#Consultas tr:hover{
+  background-color: #f5f5f5;
+}
+#Consultas tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#Consultas #Tabela_cabecalho{
+  color: darkblue;
+  text-align: center;
+  font-weight: bold;
+}
+

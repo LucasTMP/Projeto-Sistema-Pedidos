@@ -1,0 +1,8 @@
+#select_bonito{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+   background-position: 218px center;
+   border:1px solid #000;
+}
