@@ -1,6 +1,6 @@
 # Projeto-Sistema-Pedidos
 
-**README EM CONTRUÇÃO**
+**README EM CONSTRUÇÃO**
 
 Video Pitch (projeto Universitário):
 
