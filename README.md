@@ -1,2 +1,5 @@
 # Projeto-Sistema-Pedidos
-Resultado do projeto universitário em grupo voltado para a conclusão semestral, com foco no uso da linguagem de programação PHP.
+
+**README EM CONTRUÇÃO**
+
+Video Pitch (projeto Universitário) : [![Projeto video]] (https://www.youtube.com/watch?v=esB2CpJQqj0)
