@@ -4,4 +4,4 @@
 
 Video Pitch (projeto Universitário)
 
-[![Projeto video]] (https://www.youtube.com/watch?v=esB2CpJQqj0)
+[![Projeto video] (https://www.youtube.com/watch?v=esB2CpJQqj0)]
